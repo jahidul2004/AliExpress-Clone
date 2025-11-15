@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.text-primary {
+    color: #ff0055;
+}
+
+.border-primary {
+    border: #ff0055;
+}
+
+.bg-primary {
+    background-color: #ff0055;
+}
