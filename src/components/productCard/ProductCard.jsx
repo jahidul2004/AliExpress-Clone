@@ -16,7 +16,7 @@ function ProductCard({ product }) {
                     <h1 className="text-black text-lg font-extrabold">
                         BDT {product?.price}
                     </h1>
-                    <h1>BDT {product?.price}</h1>
+                    <del className="text-gray-700">BDT {product?.price}</del>
                 </div>
                 <div className="mt-2 bg bg-primary w-max text-white px-1">
                     -{product?.discount}%
