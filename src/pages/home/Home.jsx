@@ -2,6 +2,7 @@ import React from "react";
 import TopBar from "./topBar/TopBar";
 import DiscountCard from "./discountCard/DiscountCard";
 import TodaysDeals from "./todaysDeals/TodaysDeals";
+import ShopByCategory from "./shopByCategory/ShopByCategory";
 
 function Home() {
     return (
@@ -17,6 +18,10 @@ function Home() {
             {/* Todays deals */}
             <TodaysDeals />
             {/* Todays deals End */}
+
+            {/* Shop By Category */}
+            <ShopByCategory />
+            {/* Shop By Category End */}
         </div>
     );
 }
