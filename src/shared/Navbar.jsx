@@ -8,7 +8,7 @@ import { CiShoppingCart } from "react-icons/ci";
 
 function Navbar() {
     return (
-        <div className="bg-base-100 shadow-sm">
+        <div className="bg-base-100 py-4">
             <div className="container mx-auto navbar flex justify-between items-center">
                 <div>
                     <div className="flex items-center gap-4 md:gap-12">
@@ -23,7 +23,7 @@ function Navbar() {
                             </div>
                             <div className="flex items-center">
                                 <img
-                                    className="w-8 h-8"
+                                    className="w-8 h-8 mr-4"
                                     src={searchFocus}
                                     alt=""
                                 />
