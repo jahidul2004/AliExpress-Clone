@@ -67,7 +67,7 @@ function ShopByCategory() {
         },
     ];
     return (
-        <div className="py-12 container mx-auto">
+        <div className="pt-12 container mx-auto">
             {/* Header */}
             <div>
                 <h1 className="text-center text-4xl font-bold">

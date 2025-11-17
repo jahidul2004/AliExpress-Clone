@@ -3,6 +3,7 @@ import TopBar from "./topBar/TopBar";
 import DiscountCard from "./discountCard/DiscountCard";
 import TodaysDeals from "./todaysDeals/TodaysDeals";
 import ShopByCategory from "./shopByCategory/ShopByCategory";
+import MoreToLove from "./moreToLove/MoreToLove";
 
 function Home() {
     return (
@@ -22,6 +23,10 @@ function Home() {
             {/* Shop By Category */}
             <ShopByCategory />
             {/* Shop By Category End */}
+
+            {/* More to Love */}
+            <MoreToLove />
+            {/* More to Love End */}
         </div>
     );
 }

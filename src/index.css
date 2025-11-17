@@ -27,3 +27,12 @@
     color: black;
     border: 1px solid black;
 }
+
+.btn-secondary {
+    background-color: #fff;
+    color: black;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid black;
+}

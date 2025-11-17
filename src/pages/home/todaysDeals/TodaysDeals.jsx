@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import watchIcon from "../../../assets/icons/watchIcon.gif";
-import ProductCard from "../../../components/productCard/ProductCard";
+import DealsCard from "../../../components/dealsCard/DealsCard";
 
 function TodaysDeals() {
     const [timeLeft, setTimeLeft] = React.useState({
@@ -67,7 +67,7 @@ function TodaysDeals() {
                 </div>
                 <div className="grid grid-cols-4 gap-4 col-span-2">
                     {products?.map((product) => (
-                        <ProductCard product={product} key={product.id} />
+                        <DealsCard product={product} key={product.id} />
                     ))}
                 </div>
             </div>
