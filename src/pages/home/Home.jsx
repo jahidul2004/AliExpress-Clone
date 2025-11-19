@@ -4,6 +4,9 @@ import DiscountCard from "./discountCard/DiscountCard";
 import TodaysDeals from "./todaysDeals/TodaysDeals";
 import ShopByCategory from "./shopByCategory/ShopByCategory";
 import MoreToLove from "./moreToLove/MoreToLove";
+import PhotoSearchModal from "../../components/photoSearchModal/PhotoSearchModal";
+import AppQrModal from "../../components/appQrModal/AppQrModal";
+import SearchItemModal from "../../components/searchItemModal/SearchItemModal";
 
 function Home() {
     return (
@@ -27,6 +30,18 @@ function Home() {
             {/* More to Love */}
             <MoreToLove />
             {/* More to Love End */}
+
+            {/* Photo search modal */}
+            <PhotoSearchModal />
+            {/* Photo search modal End */}
+
+            {/* App QR Modal */}
+            <AppQrModal />
+            {/* App QR Modal End */}
+
+            {/* Search Item Modal */}
+            <SearchItemModal />
+            {/* Search Item Modal End */}
         </div>
     );
 }

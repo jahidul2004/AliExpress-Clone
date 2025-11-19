@@ -2,6 +2,7 @@ import "@smastrom/react-rating/style.css";
 import { Rating } from "@smastrom/react-rating";
 import React from "react";
 import { TiArrowForward } from "react-icons/ti";
+import { BsFire } from "react-icons/bs";
 
 function ProductCard({ product }) {
     return (
@@ -48,9 +49,15 @@ function ProductCard({ product }) {
                 </h1>{" "}
                 | <h1>{product.totalSold}+ sold</h1>
             </div>
-            <p className="text-primary font-semibold text-xs flex items-center gap-1 mt-2">
-                <TiArrowForward />
-                Top selling on AliExpress
+            {product?.totalSold >= 150 ? (
+                <p className="text-primary font-semibold text-xs flex items-center gap-1 mt-2">
+                    <TiArrowForward />
+                    Top selling on AliExpress
+                </p>
+            ) : null}
+            <p className="text-[#aa6d49] font-semibold text-xs flex items-center gap-1 mt-2">
+                <BsFire />
+                New User Save up to {product.discount}% off
             </p>
 
             {/* Button overlay */}

@@ -23,11 +23,25 @@ function Navbar() {
                             </div>
                             <div className="flex items-center">
                                 <img
+                                    onClick={() => {
+                                        document
+                                            .getElementById(
+                                                "photo_search_modal"
+                                            )
+                                            .showModal();
+                                    }}
                                     className="w-8 h-8 mr-4"
                                     src={searchFocus}
                                     alt=""
                                 />
-                                <button className="btn rounded-full bg-black text-white border-none outline-none shadow-none">
+                                <button
+                                    onClick={() => {
+                                        document
+                                            .getElementById("search_item_modal")
+                                            .showModal();
+                                    }}
+                                    className="btn rounded-full bg-black text-white border-none outline-none shadow-none"
+                                >
                                     <FiSearch className="text-2xl" />
                                 </button>
                             </div>
@@ -36,7 +50,14 @@ function Navbar() {
                 </div>
                 <div className="hidden lg:flex">
                     <ul className="flex gap-4">
-                        <div className="flex items-center gap-2">
+                        <div
+                            onClick={() => {
+                                document
+                                    .getElementById("app_qr_modal")
+                                    .showModal();
+                            }}
+                            className="cursor-pointer flex items-center gap-2"
+                        >
                             <IoGridOutline className="text-3xl" />
                             <div className="text-xs font-semibold">
                                 <p>Download the</p>
