@@ -35,7 +35,7 @@ function PhotoSearchModal() {
     return (
         <div>
             <dialog id="photo_search_modal" className="modal">
-                <div className="modal-box">
+                <div className="modal-box rounded-none">
                     <div>
                         <div>
                             <h1 className="text-xl font-bold">

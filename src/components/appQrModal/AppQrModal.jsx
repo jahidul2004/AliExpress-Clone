@@ -8,7 +8,7 @@ function AppQrModal() {
     return (
         <div>
             <dialog id="app_qr_modal" className="modal">
-                <div className="modal-box relative">
+                <div className="modal-box rounded-none relative">
                     <div className="flex justify-between gap-2">
                         <img
                             className="w-28 h-28"

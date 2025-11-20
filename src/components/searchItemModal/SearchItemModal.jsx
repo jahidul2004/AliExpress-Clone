@@ -6,7 +6,7 @@ function SearchItemModal() {
     return (
         <div>
             <dialog id="search_item_modal" className="modal">
-                <div className="modal-box relative">
+                <div className="modal-box relative rounded-none">
                     <div className="flex flex-col justify-center items-center gap-2">
                         <BiError className="text-primary text-8xl" />
                         <h1 className="text-primary text-3xl mt-2 font-bold">
