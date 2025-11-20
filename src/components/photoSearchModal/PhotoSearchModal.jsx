@@ -34,7 +34,6 @@ function PhotoSearchModal() {
     };
     return (
         <div>
-            <button className="btn">open modal</button>
             <dialog id="photo_search_modal" className="modal">
                 <div className="modal-box">
                     <div>

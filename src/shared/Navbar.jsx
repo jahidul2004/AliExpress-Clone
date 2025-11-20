@@ -71,7 +71,14 @@ function Navbar() {
                                 <p className="font-semibold">BDT</p>
                             </div>
                         </div>
-                        <div className="flex items-center gap-2">
+                        <div
+                            onClick={() => {
+                                document
+                                    .getElementById("register_modal")
+                                    .showModal();
+                            }}
+                            className="cursor-pointer flex items-center gap-2"
+                        >
                             <FaRegUser className="text-3xl" />
                             <div className="text-xs">
                                 <p>Welcome</p>

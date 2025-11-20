@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 function AppQrModal() {
     return (
         <div>
-            <button className="btn">open modal</button>
             <dialog id="app_qr_modal" className="modal">
                 <div className="modal-box relative">
                     <div className="flex justify-between gap-2">

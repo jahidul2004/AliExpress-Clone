@@ -5,7 +5,6 @@ import { IoMdClose } from "react-icons/io";
 function SearchItemModal() {
     return (
         <div>
-            <button className="btn">open modal</button>
             <dialog id="search_item_modal" className="modal">
                 <div className="modal-box relative">
                     <div className="flex flex-col justify-center items-center gap-2">
